@@ -10,5 +10,9 @@
         <module name="jwt-demo.jwt-demo.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jwt-demo.jwt-demo.main~1" target="1.8" />
+      <module name="jwt-demo.jwt-demo.test~1" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
